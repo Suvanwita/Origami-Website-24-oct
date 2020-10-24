@@ -1,0 +1,79 @@
+body{
+  display:flex;
+  flex-direction:column;
+}
+
+canvas{
+    border:8px;
+    margin: 10px;
+    padding:5px;
+}
+
+table {
+    width: 100%;
+  }
+  
+  th {
+    height: 50px;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+  
+  table, tr, td {
+    border: 1px solid #000000;
+  }
+
+
+ .Dino,
+ .Pigeon,
+ .Boat{
+   max-width: 500px;
+   display:flex;
+   flex-direction:column;
+   margin:10px;
+   border-width:5px 5px 5px 5px;
+   border-color: #750c88;
+ }
+ .Dino{
+   background-color: #fa8072;
+   text-align: center;
+ }
+ .Boat{
+   background-color: #87ceeb;
+   align-items: center;
+ }
+ .Pigeon{
+   background-color: #00ff7f;
+   align-items: center;
+ }
+
+ .origami{
+   display:flex;
+   flex-direction:row;
+ }
+
+ .intro{
+   padding-top: 0px;
+   z-index: 1;
+   box-sizing: border-box;
+   box-shadow: 1px 2px 50px 0px #000000;
+ }
+
+ .designs{
+   display:flex;
+   flex-direction:column;
+ }
+
+ .learnOrigami{
+   margin-left: 150px;
+   display:flex;
+   flex-direction: row;
+   margin-bottom: 55px;
+ }
+ .card{
+  z-index: 1;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 50px 0px #920b58;
+ }
